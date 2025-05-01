@@ -25,18 +25,19 @@ This repository contains several S-box modeling techniques for evaluating and im
 > All results in the above directories were computed using the Difference Distribution Table (DDT).
 
 ---
+
+- **SBOXES**: Contains JSON files for different S-boxes.
+  - `4_bit_sboxes.json`: List of 4-bit S-boxes.
+  - `5_bit_sboxes.json`: List of 5-bit S-boxes.
+
 ### Additional Cryptanalysis Metrics
 These directories contain results based on different S-box analysis metrics:
 
-- **BCT/**: Uses the Boomerang Connectivity Table.
-- **DPT/**: Uses the Division Property Table.
-- **LAT/**: Uses the Linear Approximation Table.
+- **BCT**: Uses the Boomerang Connectivity Table.
+- **DPT**: Uses the Division Property Table.
+- **LAT**: Uses the Linear Approximation Table.
 
 Each directory includes outputs from all three modeling techniques:
 - Direct Inequality Generation
 - Iterative Inequality Augmentation
 - Modified Greedy Approach
-
-- **SBOXES**: Contains JSON files for different S-boxes.
-  - `4_bit_sboxes.json`: List of 4-bit S-boxes.
-  - `5_bit_sboxes.json`: List of 5-bit S-boxes.
