@@ -19,8 +19,23 @@ This repository contains several S-box modeling techniques for evaluating and im
   - `iterative_inequality_augmentation.py`: Script for augmenting inequalities iteratively.
 
 - **Modified Greedy Approach**: Implements a modified version of the greedy algorithm for generating and reducing inequalities.
-  - `Results/`: Contains results of the modified greedy approach for the GIFT S-box.
+  - `Results/`: Contains results of the modified greedy approach.
   - `modified_greedy_approach.py`: Script implementing the modified greedy approach.
+
+> All results in the above directories were computed using the Difference Distribution Table (DDT).
+
+---
+### Additional Cryptanalysis Metrics
+These directories contain results based on different S-box analysis metrics:
+
+- **BCT/**: Uses the Boomerang Connectivity Table.
+- **DPT/**: Uses the Division Property Table.
+- **LAT/**: Uses the Linear Approximation Table.
+
+Each directory includes outputs from all three modeling techniques:
+- Direct Inequality Generation
+- Iterative Inequality Augmentation
+- Modified Greedy Approach
 
 - **SBOXES**: Contains JSON files for different S-boxes.
   - `4_bit_sboxes.json`: List of 4-bit S-boxes.
