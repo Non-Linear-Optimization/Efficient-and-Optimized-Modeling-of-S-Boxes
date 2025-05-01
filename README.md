@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Paper-Results
-=======
 # Optimized S-Box Modeling Techniques 
 
 This repository contains several S-box modeling techniques for evaluating and improving the security of S-boxes used in symmetric cryptography algorithms. The main focus is generating, reducing, and augmenting inequalities for various S-boxes, including 4-bit and 5-bit configurations.
@@ -28,4 +25,3 @@ This repository contains several S-box modeling techniques for evaluating and im
 - **SBOXES**: Contains JSON files for different S-boxes.
   - `4_bit_sboxes.json`: List of 4-bit S-boxes.
   - `5_bit_sboxes.json`: List of 5-bit S-boxes.
->>>>>>> f10bb8f (Initial commit)
