@@ -1,0 +1,10 @@
+SC2000_5 - 70
+keccak - 41
+icepole - 50
+Fides_5 - 66
+Ascon - 42
+APN_S4 - 69
+APN_S3 - 66
+APN_S2 - 68
+APN_S1 - 68
+APN_S0 - 74
